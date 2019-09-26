@@ -7,3 +7,7 @@ To get all the installed theme list:
 
 To get into the existant theme for work:
    theme get -p=802e8f0ac96176028b4706aeade1f7d7 -s=https://learn-theme.myshopify.com -t=68789108836
+
+
+To upload all the local envinorment files into the store theme
+	theme deploy
