@@ -1,0 +1,21 @@
+To go to local theme folder
+	cd C:\Users\USER\Desktop\Folder Name
+
+To ctreate directory/subfolder
+	mkdir NewFolderName
+	
+To Create New Theme on the folder/Store: 
+   theme new --password=[your-password] --store=[your-store.myshopify.com] --name=[theme name]
+
+To get all the installed theme ID list: 
+   theme get --list -p=[your-password] -s=[your-store.myshopify.com]
+
+To get into the existant theme for work:
+   theme get -p=[your-password] -s=[your-store.myshopify.com] -t=[theme ID]
+
+
+To upload all the local envinorment files into the store theme
+	theme deploy
+
+To To update local changes automatically
+	theme watch
