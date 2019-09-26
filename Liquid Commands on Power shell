@@ -19,3 +19,17 @@ To upload all the local envinorment files into the store theme
 
 To To update local changes automatically
 	theme watch
+
+
+To edit files:
+	need "visual studio code"
+	Extensio : Shopify highlight, emmet
+	
+To enable emment in liquid file:
+	Go to file>preferences>settings> search emment and edit setting.json and past the code
+	{
+    	"editor.minimap.enabled": false,
+    	"breadcrumbs.enabled": false,
+    	"editor.wordWrap": "on",
+    	"emmet.includeLanguages": { "liquid": "html" },
+    	}
